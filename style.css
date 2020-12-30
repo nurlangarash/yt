@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+*{
+	font-family: 'Exo 2', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+iframe{
+	width: 100%;
+	display:none;
+	border: none;
+
+}
+#bos{
+	padding-bottom: 3rem;
+}
+
+.button{
+  position:relative;
+  display:inline-block;
+  margin:.5rem;
+}
+.fas{
+	font-size: 1.5rem;
+}
+body{
+	background: #6A66A3;
+}
+.container{
+	background: #542E71 ;
+	margin: 2rem;
+	padding: 2rem;
+	border-radius: 1rem;
+	align-items: center;
+}
+.js-youtube-vid{
+	position: relative;
+	padding: .2rem;
+	padding-left: 1rem;
+	margin: .2rem;
+	border: none;
+	outline: none;
+	width: 400px;
+	height: 1.5rem;
+	max-width: 80vw !important;
+	font-size: 1rem;
+	border-radius:.7rem;
+	text-align: justify;
+}
+.button {
+    background-color: #3181cd;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 5px #999;
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+}
+.button:hover {
+    background-color: #285c8d;
+}
+.button:active {
+    background-color: red;
+    box-shadow: 0 5px gray;
+    transform: translateY(2px);
+ }
+
+@media all and (max-width: 700px) {
+	body{
+		background: #542E71 ;
+		margin: 0 !important;
+		padding:!important;
+	}
+	.container{
+		background: #542E71 ;
+		margin: 0 !important;
+		padding: 2rem 0;
+		border-radius: 0;
+		align-items: center;
+	}
+}
